@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "pushGithub": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
